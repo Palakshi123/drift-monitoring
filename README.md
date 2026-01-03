@@ -1,6 +1,6 @@
 # drift-monitoring
 
-## Model Drift & Data Drift: What to Monitor and When to Retrain Machine Learning Model in Deployment 
+### Model Drift & Data Drift: What to Monitor and When to Retrain Machine Learning Model in Production
 
 A practical guide and reference implementation for:
 - Detecting **data drift**, **model drift**, and **concept drift**
@@ -11,7 +11,7 @@ This repository focuses on **monitoring correctness**, not just metric calculati
 
 ---
 
-## Why this repository exists
+### Why this repository exists
 
 Many production ML systems rely on a simple rule:
 
@@ -31,7 +31,7 @@ This repository demonstrates:
 
 ---
 
-## Core concepts
+### Core concepts
 
 ### 1. Data Drift (Covariate Shift)
 
@@ -132,7 +132,7 @@ Retraining on corrupted data accelerates failure.
 
 ---
 
-## Recommended retraining framework
+### Recommended retraining framework
 
 Retraining should be a **decision**, not an automatic reaction.
 
@@ -173,8 +173,6 @@ Retrain with validation, safe rollout, and rollback capability.
 
 ---
 
-## What this repository contains
-
 ### Drift metrics
 - PSI (numeric and categorical)
 - KS test
@@ -196,6 +194,4 @@ A reference policy that combines:
 - Delayed ground truth
 
 ---
-
-## Planned repository structure
 
