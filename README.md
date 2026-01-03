@@ -1,6 +1,6 @@
 # drift-monitoring
 
-# Model Drift & Data Drift: What to Monitor and When to Retrain Machine Learning Model in Deployment 
+## Model Drift & Data Drift: What to Monitor and When to Retrain Machine Learning Model in Deployment 
 
 A practical guide and reference implementation for:
 - Detecting **data drift**, **model drift**, and **concept drift**
